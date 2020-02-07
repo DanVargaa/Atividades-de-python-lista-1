@@ -1,0 +1,9 @@
+# Atividades-de-python-lista-1
+5) Solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o
+preço a pagar.
+preco = float (input("Digite o preço a pagar:"))
+porcentagem = float (input("Digite a porcentagem de desconto:"))
+novo = (preco * porcentagem / 100)
+desc = preco - novo
+print ("O valor a pagar será de:R${}".format(desc))
+print ("O desconto do produto agora é:R${}".format(novo))
