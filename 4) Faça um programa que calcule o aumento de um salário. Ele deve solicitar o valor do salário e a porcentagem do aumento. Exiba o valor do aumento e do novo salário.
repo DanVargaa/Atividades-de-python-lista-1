@@ -1,0 +1,8 @@
+# Atividades-de-python-lista-1
+4) Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a
+porcentagem do aumento. Exiba o valor do aumento e do novo salário.
+salario = float(input("Salário atual:"))
+porcentagem = float(input("Digite a porcentagem que irá aumentar:"))
+novo = salario + (salario * porcentagem / 100)
+aumento = salario * porcentagem / 100
+print("O novo salário será de R${:.2f}.E seu aumento foi de R${:.2f}".format(novo, aumento))
