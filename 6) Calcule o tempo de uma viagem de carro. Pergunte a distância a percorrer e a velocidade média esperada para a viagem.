@@ -1,0 +1,8 @@
+# Atividades-de-python-lista-1
+6) Calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média
+esperada para a viagem. 
+distancia = float(input("Coloque a seguir a distancia que pretende percorrer:"))
+velocidade = float(input("Coloque a seguir a velocidade média de sua viagem:"))
+temp = distancia / velocidade
+minu = temp * 60
+print ("Você vai demorar {:.0f}minutos para chegar ao seu destino".format(minu))
