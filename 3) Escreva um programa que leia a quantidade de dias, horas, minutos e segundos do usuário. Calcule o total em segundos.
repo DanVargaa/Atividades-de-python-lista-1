@@ -1,0 +1,9 @@
+# Atividades-de-python-lista-1
+3) Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule
+o total em segundos.
+dias = int(input("Quantidade de dias:"))
+horas = int(input("Quantidade de horas:"))
+minu = int(input("Quantidade de minutos:"))
+segundos = int(input("Quantidade de segundos:"))
+s = dias * 86400 + horas * 3600 + minu * 60 + segundos
+print("{}dias {}horas {}minutos e {}segundos são em segundos:{}!".format(dias, horas, minu, segundos, s))
