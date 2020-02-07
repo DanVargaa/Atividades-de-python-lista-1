@@ -1,0 +1,4 @@
+2) Escreva um programa que leia um valor em metros e o exiba convertido em milímetros
+medida = float(input("Uma distância em metros:"))
+mm = medida * 1000
+print("{:.0f}m corresponde a {:.0f}mm!".format(medida, mm))
