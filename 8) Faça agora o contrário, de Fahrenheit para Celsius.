@@ -1,0 +1,5 @@
+# Atividades-de-python-lista-1
+8) Faça agora o contrário, de Fahrenheit para Celsius.
+fahrenheit = float(input("Coloque a seguir o valor em Graus Fahrenheit para converter em Graus Celsius:"))
+VC = (fahrenheit -32)*5/9
+print("O valor de {}Graus Fahrenheit em Graus Celsius é{}".format(fahrenheit, VC))
