@@ -1,0 +1,6 @@
+# Atividades-de-python-lista-1
+7) Converta uma temperatura digitada em Celsius para Fahrenheit.
+celsius = float(input("Valor em Graus Celsius para converter em Fahrenheit:"))
+C = celsius
+VT = F = 9*C/5 + 32
+print ("O valor de {:.0f} Graus Celsius em Graus Fahrenheit é {:.0f}".format(C, VT))
